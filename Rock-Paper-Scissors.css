@@ -50,15 +50,11 @@
   background-color: red;
   color: white;
  }
-.div1 {
-  width: 340px;
-  height: 500px;
+body {
   background-color: rgb(24, 14, 14);
   color: rgb(241, 215, 197);
   font-family: Arial;
   padding: 20px;
-  
-  
 }
 
 .copyright {
