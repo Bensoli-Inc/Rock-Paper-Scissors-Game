@@ -2,4 +2,4 @@ I used Javascript, html and CSS to create this game. I simply used the math.rand
 Check the full .Js file for the javascript code.
 
 Here is the link for the finished project:
-put link here
+https://bensoli-inc.github.io/Rock-Paper-Scissors-Game/java.html
