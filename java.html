@@ -3,42 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock-paper-scissors</title>
-  <link rel="stylesheet" href="Rock-Paper-Scissors.css">
-
+  <title>12Rock-paper-scissors</title>
+  <link rel="stylesheet" href="CSSstyles/12RockPaper.css">
   <style></style>
 </head>
 
-<body style = "
-background-color: rgb(15, 20, 25);
-  color: rgb(241, 215, 197);
-  font-family: Arial;
-   ">
+<body>
 
 
+<div class="div1">
   
     <p class="title">Rock Paper Scissors</p>
 
     
   <p class="js-moves"></p>
 
-  <button onclick="
-      playGame('rock');
-      " class="movebutton"> 
+  <button class="movebutton js-rock-button"> 
       <img src="images/rock-dp.png" class="moveicon">
     </button>
 
     
-    <button onclick="
-    playGame('paper'); 
-      " class="movebutton">
+    <button class="movebutton js-paper-button">
       <img src="images/paper-dp.png" class="moveicon">
   </button>
 
   
-  <button onclick="
-      playGame('scissors');
-      " class="movebutton">
+  <button class="movebutton js-scissors-button">
       <img src="images/scissors-dp.png" class="moveicon">
   </button>
 
@@ -55,12 +45,17 @@ background-color: rgb(15, 20, 25);
     " class="resetscorebutton">Reset Score
   </button>
 
+  <button class="autoplaybutton" onclick="
+    autoplay();  
+    ">Auto Play</button>
 
-  <script src="Rock-Paper-Scissors.js">
+<iframe width="90" height="70" src="https://www.youtube.com/embed/ND4fd6yScBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <script src="javacodes/12RockPaper.js">
     
   </script>
 
   <p class="copyright">&#169; BensoliDev 2023</p>
-
+</div>
 </body>
 </html>
