@@ -17,10 +17,10 @@ padding: 3px;
 .movebutton {
   background-color: transparent;
   border: 3px solid white;
-  width: 95px;
-  height: 95px;
+  width: 85px;
+  height: 85px;
   border-radius: 50px;
-  margin-right: 15px;
+  margin-right: 9px;
   cursor: pointer;
 }
 
@@ -64,8 +64,8 @@ padding: 3px;
  }
 
 .div1 {
-  width: 300px;
-  height: 700px;
+  width: 280px;
+  height: 590px;
   background-color: rgb(24, 14, 14);
   color: rgb(241, 215, 197);
   font-family: Arial;
