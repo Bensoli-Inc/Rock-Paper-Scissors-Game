@@ -57,7 +57,10 @@ padding: 3px;
   color: white;
  }
 
-
+.autoplaybutton:hover {
+  background-color: green;
+  color: white;
+ }
  .autoplaybutton:active {
   background-color: green;
   color: white;
