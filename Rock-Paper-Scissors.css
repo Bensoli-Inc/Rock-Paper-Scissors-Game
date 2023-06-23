@@ -1,5 +1,5 @@
 .body {
-padding: 0px;
+padding: 3px;
 }
 
 
@@ -17,10 +17,10 @@ padding: 0px;
 .movebutton {
   background-color: transparent;
   border: 3px solid white;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   border-radius: 50px;
-  margin-right: 18px;
+  margin-right: 15px;
   cursor: pointer;
 }
 
